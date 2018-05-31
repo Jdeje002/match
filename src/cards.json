@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Psyduck",
+      "image":
+        "http://1.bp.blogspot.com/_EqYSOZLTe9s/S8D3tl28B2I/AAAAAAAAAHI/Mf-10o62wAg/s1600/90-misty%27s-psyduck.jpg"
+   
+    },
+    {
+      "id": 2,
+      "name": "Charizard",
+      "image":
+        "https://vignette.wikia.nocookie.net/nintendo/images/e/e1/Pokemon_Charizard_Card.jpg/revision/latest?cb=20060906214618&path-prefix=en"
+      
+    },
+    {
+      "id": 3,
+      "name": "Raichu",
+      "image":
+        "https://assets.pokemon.com/assets/cms2/img/cards/web/XY8/XY8_EN_49.png"
+     
+    },
+    {
+        "id": 4,
+        "name": "Snorelx",
+        "image":
+          "http://3.bp.blogspot.com/_EqYSOZLTe9s/S8D-T01R3LI/AAAAAAAAAHo/tLNjjijLWXo/s1600/111-snorlax-lv.x.jpg"
+       
+      },
+      {
+        "id": 5,
+        "name": "Pikachu",
+        "image":
+          "https://assets.pokemon.com/assets/cms2-de-de/img/cards/web/SMP/SMP_DE_SM76.png"
+       
+      },
+      {
+        "id": 6,
+        "name": "Eevee",
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/cards/web/BW9/BW9_EN_89.png"
+       
+      }
+  ]

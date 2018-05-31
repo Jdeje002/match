@@ -1,0 +1,29 @@
+.card {
+    background-size: cover;
+    background-position: 50%;
+    background-color: aliceblue;
+    height: 100%;
+    width: 200px;
+    margin: 8px 25px;
+    border: 5px solid #f1f1f1;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    cursor: pointer;
+    float: right
+  }
+  
+  
+  .card > .img-container > img {
+    width: 90%
+  }
+  
+
+  body{
+    background-color: gray
+  }
+ 
+  
+  .card{
+    margin-top: 18px;
+  }
