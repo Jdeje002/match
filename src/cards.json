@@ -40,5 +40,47 @@
         "image":
           "https://assets.pokemon.com/assets/cms2/img/cards/web/BW9/BW9_EN_89.png"
        
+      },
+      {
+        "id": 7,
+        "name": "Blaziken",
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/cards/web/PL1/PL1_EN_3.png"
+       
+      },
+      {
+        "id": 8,
+        "name": "Eevee",
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/cards/web/BW9/BW9_EN_89.png"
+       
+      },
+      {
+        "id": 9,
+        "name": "Charmander",
+        "image":
+          "https://images-na.ssl-images-amazon.com/images/I/71AL2PhrUxL._SL1028_.jpg"
+       
+      },
+      {
+        "id": 10,
+        "name": "Magikarp",
+        "image":
+          "http://pod.pokellector.com/cards/143/Magikarp.XY.143.png"
+       
+      },
+      {
+        "id": 11,
+        "name": "Chandeure",
+        "image":
+          "https://cdn.shopify.com/s/files/1/1677/4363/products/Chandelure_GX_800x.jpg?v=1521558131"
+       
+      },
+      {
+        "id": 12,
+        "name": "Mewtwo",
+        "image":
+          "https://cdn.shopify.com/s/files/1/1677/4363/products/Giovanni_s_Mewtwo_GX_800x.jpg?v=1517204623"
+       
       }
   ]
