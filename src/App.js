@@ -11,23 +11,20 @@ import Cards from "./Components/Cards"
 class App extends Component {
   render() {
     return (
-      <div className="App ">
-       <nav>
-        <NavBar/>
-       </nav>
-       <div>
-       <Instruction/>
-       </div>
-      <div >
-        <div >
-        <div  ></div>
-      
-      <div > {card.map(card=> <Cards name= {card.name} img = {card.image} />)
-      }
-      </div>
-      <div> </div>
-      </div>
-      </div>
+      <div className="App">
+        <div className = "container">
+          <nav>
+            <NavBar />
+          </nav>
+          <div className="container">
+            <Instruction />
+          </div>
+        </div>
+
+        <div className= "container"> {card.map(card => <Cards className="" name={card.name} img={card.image} />)
+        }
+        </div>
+
       </div>
     );
   }

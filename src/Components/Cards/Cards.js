@@ -5,7 +5,7 @@ import '../../cards.json'
 
 const Cards = props => (
     
-    <div className="card ">
+    <div className="card">
       <div className="img-container">
         <img
           alt={props.name}
