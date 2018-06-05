@@ -9,7 +9,7 @@ const NavBar = props=> (
         <nav id="title"> 
             <h2>Match it up!</h2>
             <h3>Your Points!</h3>
-            <p> Score:  <Score/></p>
+             <Score gameScore = {props.score}/>
         
         </nav>    
     </div>

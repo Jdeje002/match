@@ -2,6 +2,7 @@
     {
       "id": 1,
       "name": "Psyduck",
+      "wasClicked":false,
       "image":
         "http://1.bp.blogspot.com/_EqYSOZLTe9s/S8D3tl28B2I/AAAAAAAAAHI/Mf-10o62wAg/s1600/90-misty%27s-psyduck.jpg"
    
@@ -9,6 +10,7 @@
     {
       "id": 2,
       "name": "Charizard",
+      "wasClicked":false,
       "image":
         "https://vignette.wikia.nocookie.net/nintendo/images/e/e1/Pokemon_Charizard_Card.jpg/revision/latest?cb=20060906214618&path-prefix=en"
       
@@ -16,6 +18,7 @@
     {
       "id": 3,
       "name": "Raichu",
+      "wasClicked":false,
       "image":
         "https://assets.pokemon.com/assets/cms2/img/cards/web/XY8/XY8_EN_49.png"
      
@@ -23,6 +26,7 @@
     {
         "id": 4,
         "name": "Snorelx",
+        "wasClicked":false,
         "image":
           "http://3.bp.blogspot.com/_EqYSOZLTe9s/S8D-T01R3LI/AAAAAAAAAHo/tLNjjijLWXo/s1600/111-snorlax-lv.x.jpg"
        
@@ -30,6 +34,7 @@
       {
         "id": 5,
         "name": "Pikachu",
+        "wasClicked":false,
         "image":
           "https://assets.pokemon.com/assets/cms2-de-de/img/cards/web/SMP/SMP_DE_SM76.png"
        
@@ -37,6 +42,7 @@
       {
         "id": 6,
         "name": "Eevee",
+        "wasClicked":false,
         "image":
           "https://assets.pokemon.com/assets/cms2/img/cards/web/BW9/BW9_EN_89.png"
        
@@ -44,20 +50,23 @@
       {
         "id": 7,
         "name": "Blaziken",
+        "wasClicked":false,
         "image":
           "https://assets.pokemon.com/assets/cms2/img/cards/web/PL1/PL1_EN_3.png"
        
       },
       {
         "id": 8,
-        "name": "Eevee",
+        "name": "Weedle",
+        "wasClicked":false,
         "image":
-          "https://assets.pokemon.com/assets/cms2/img/cards/web/BW9/BW9_EN_89.png"
+          "https://kantopia.files.wordpress.com/2014/04/weedle.png"
        
       },
       {
         "id": 9,
         "name": "Charmander",
+        "wasClicked":false,
         "image":
           "https://images-na.ssl-images-amazon.com/images/I/71AL2PhrUxL._SL1028_.jpg"
        
@@ -65,6 +74,7 @@
       {
         "id": 10,
         "name": "Magikarp",
+        "wasClicked":false,
         "image":
           "http://pod.pokellector.com/cards/143/Magikarp.XY.143.png"
        
@@ -72,6 +82,7 @@
       {
         "id": 11,
         "name": "Chandeure",
+        "wasClicked":false,
         "image":
           "https://cdn.shopify.com/s/files/1/1677/4363/products/Chandelure_GX_800x.jpg?v=1521558131"
        
@@ -79,6 +90,7 @@
       {
         "id": 12,
         "name": "Mewtwo",
+        "wasClicked":false,
         "image":
           "https://cdn.shopify.com/s/files/1/1677/4363/products/Giovanni_s_Mewtwo_GX_800x.jpg?v=1517204623"
        
