@@ -20,15 +20,11 @@ class App extends Component {
   
   
 
-  handleCardClick = event =>{
-    console.log('hi')
-    let {alt, wasclicked, hotdog} = event.target
+  handleCardClick = wasclicked =>{
     
-    let cardsArray = this.state.cardsArray
-    console.log(event.target)
     console.log(wasclicked)
-    console.log(alt)
-    console.log(hotdog)
+    let cardsArray = this.state.cardsArray
+   
 
 
     for (let i = cardsArray.length - 1; i > 0; i--) {
@@ -36,6 +32,10 @@ class App extends Component {
         [cardsArray[i], cardsArray[j]] = [cardsArray[j], cardsArray[i]];
     }
     this.setState({cardsArray})
+
+    if (wasclicked === false) {
+      
+    }
 
 
   }
