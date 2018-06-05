@@ -21,8 +21,9 @@ class App extends Component {
   
 
   handleCardClick = event =>{
-    console.log("test")
+    
     let {alt} = event.target
+
     console.log(alt)
     let cardsArray = this.state.cardsArray
 
@@ -47,9 +48,11 @@ class App extends Component {
         </div>
 
         <div className= "container"> 
+        <div className = "row">
         
-        {this.state.cardsArray.map(card => <Cards className="" key ={card.id} name={card.name} img={card.image} clickHandler={this.handleCardClick}/>)
+        {this.state.cardsArray.map(card => <Cards className="" key ={card.id} name={card.name} img={card.image} clickHandler={this.handleCardClick} clicked={card.wasClicked}/>)
         }
+        </div>
         </div>
 
       </div>
