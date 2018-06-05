@@ -6,15 +6,15 @@ import '../../cards.json'
 
 
 const Cards = props => (
-    <div className="col-md-3">
+    <div className="col-md-3" onClick={props.clickhandler} clicked={props.wasclicked}>
     <div className="card">
       <div className="img-container">
         <img
           alt={props.name}
           src={props.img}
-          onClick={
-            props.clickHandler
-          }
+          onClick={props.clickhandler}
+          wasclicked={props.wasclicked}
+          hotdog='hello everyone'
         />
       </div>
     </div>

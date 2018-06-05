@@ -21,17 +21,23 @@ class App extends Component {
   
 
   handleCardClick = event =>{
+    console.log('hi')
+    let {alt, wasclicked, hotdog} = event.target
     
-    let {alt} = event.target
-
-    console.log(alt)
     let cardsArray = this.state.cardsArray
+    console.log(event.target)
+    console.log(wasclicked)
+    console.log(alt)
+    console.log(hotdog)
+
 
     for (let i = cardsArray.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [cardsArray[i], cardsArray[j]] = [cardsArray[j], cardsArray[i]];
     }
     this.setState({cardsArray})
+
+
   }
 
 
@@ -50,7 +56,7 @@ class App extends Component {
         <div className= "container"> 
         <div className = "row">
         
-        {this.state.cardsArray.map(card => <Cards className="" key ={card.id} name={card.name} img={card.image} clickHandler={this.handleCardClick} clicked={card.wasClicked}/>)
+        {this.state.cardsArray.map(card => <Cards key ={card.id} name={card.name} img={card.image} clickhandler={this.handleCardClick} wasclicked={card.wasClicked.toString()}/>)
         }
         </div>
         </div>
